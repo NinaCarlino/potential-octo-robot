@@ -17,9 +17,9 @@ input:hover{
 }
 
 .container{
-	border-bottom: 2px solid #BBBDBC;
+	border-bottom: 1px solid #E8E8E8;
 	width: 100%;
-	height: 600px;
+	height: 550px;
 	background-color: #F0F5F4;
 	text-align: center;
 	margin: 0 auto;
@@ -103,10 +103,10 @@ input{
 }
 
 .info{
-	width: 480px;
+	width: 500px;
 	height: 400px;
-	background-color: #FFFFFF;
-	border-radius: 20px;
+	background-color: #E3E3E3;
+	border-radius: 20px 0px 20px 0px;
 	margin-top: 80px;
 }
 
@@ -122,4 +122,10 @@ input{
 	float: right;
 	margin-right: 10%; 
 
+}
+
+.main-footer{
+	width: 100%;
+	height: 100px;
+	background-color: #6ECCBF;
 }
