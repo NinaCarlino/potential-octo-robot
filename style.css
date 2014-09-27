@@ -2,12 +2,17 @@ body{
 	background-color: #F0F5F4;
 	margin: 0 auto;
 	font-family: Arial, sans-serif;
+	color: #777878;
 }
 
 a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
+a:hover{
+	color: #E3E3E3;
+}
+
 input:active, input:focus{
 	border: 0;
 	outline: 0;
@@ -25,7 +30,7 @@ input:hover{
 	margin: 0 auto;
 }
 
-#logo{
+.logo{
 	width: 400px;
 	height: 80px;
 	padding-top: 15px;
@@ -54,7 +59,7 @@ input:hover{
 }
 .main-nav ul li{
 	display: inline;
-	padding-right: 15px;
+	padding-right: 20px;
 	font-size: 20px;
 }
 
@@ -89,6 +94,16 @@ input{
 	text-indent: 10px;
 }
 
+.forget_password{
+    color: #777878;
+    font-size: 16px;
+    font-style: italic;
+
+}
+#reset{
+	font-size: 22px;
+	margin: none;
+}
 .top{
     margin-top: 50px;
 }
@@ -100,6 +115,7 @@ input{
 	font-size: 28px;
 	border-radius: 30px;
 	border: none;
+	margin-bottom: 15px;
 }
 
 .info{
@@ -128,4 +144,11 @@ input{
 	width: 100%;
 	height: 100px;
 	background-color: #6ECCBF;
+}
+.about_wraper{
+	width: 800px;
+	height: 100%;
+	margin-left: 17%;
+	margin-top: 5%;
+	text-align: left;
 }
